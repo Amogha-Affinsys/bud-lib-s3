@@ -4,7 +4,7 @@ from botocore.exceptions import ClientError
 import logging
 from django.conf import settings
 
-logger = logging.getLogger(__name__)
+logger = logging.getLogger("s3lib")
 EMPTY_STRING = ""
 
 
